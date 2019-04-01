@@ -17,7 +17,7 @@ API
 - dispatch(action)
 
 **Other**
-- createStore
+- createStore(reducer, [preloadedState], enhancer)
 - compose
 - combineReducers
 - bindActionCreators
