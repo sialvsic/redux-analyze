@@ -3,7 +3,6 @@
 
 Redux 设计思想
 
-
 Redux 优势
 
 Redux 核心组成
@@ -11,10 +10,17 @@ Redux 核心组成
 - Action
 - Reducer
 
-
 API
-- compose
+**store**
+- getState()
+- subscribe(listener)
+- dispatch(action)
+
+**Other**
 - createStore
+- compose
 - combineReducers
 - bindActionCreators
 - applyMiddleware
+
+Redux -> Redux thunk -> React Redux -> React
