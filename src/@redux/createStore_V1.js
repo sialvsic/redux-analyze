@@ -1,5 +1,25 @@
-const INIT = `@@redux/INIT`;
+//输入: createStore(reducer, [preloadedState])
+//输出: Store = { subscribe, getState, dispatch }
 
+function createStore_template(reducers, initialState) {
+  let store = {};
+
+  store.subscribe = function(fn) {
+
+  };
+
+  store.getState = function() {
+
+  };
+
+  store.dispatch = function(action) {
+
+  };
+
+  return store
+}
+
+const INIT = `@@redux/INIT`;
 function createStore_V1(reducers, initialState) {
   let store = {};
   let state;

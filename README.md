@@ -18,8 +18,8 @@ API
 
 **Other**
 - createStore(reducer, [preloadedState], enhancer)
+- combineReducers(reducers)
 - compose
-- combineReducers
 - bindActionCreators
 - applyMiddleware
 
