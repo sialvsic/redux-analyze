@@ -1,7 +1,7 @@
+//rootReducer = combineReducers({potato: potatoReducer, tomato: tomatoReducer})
 //输入: combineReducers(reducers)
 //输出:
-// { todo: { todos: [ [Object] ] },
-//   job: { jobs: [ 'dev', 'qa' ] } }
+// [Function: combination]
 
 function combineReducers_template(reducers) {
 
@@ -40,4 +40,4 @@ function combineReducers(reducers) {
 module.exports = combineReducers;
 
 
-// rootReducer = combineReducers({potato: potatoReducer, tomato: tomatoReducer})
+

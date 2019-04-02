@@ -1,3 +1,4 @@
+// let store = createStore(reducers, applyMiddleware(thunk));
 //输入: createStore(reducer, [preloadedState])
 //输出: Store = { subscribe, getState, dispatch }
 
@@ -59,6 +60,3 @@ function createStore_V1(reducers, initialState) {
 }
 
 module.exports = createStore_V1;
-
-
-// let store = createStore(reducers, applyMiddleware(thunk));
