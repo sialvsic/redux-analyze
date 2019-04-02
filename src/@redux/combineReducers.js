@@ -1,5 +1,3 @@
-const INIT = `@@redux/INIT`;
-
 //输入: combineReducers(reducers)
 //输出:
 // { todo: { todos: [ [Object] ] },
@@ -7,7 +5,9 @@ const INIT = `@@redux/INIT`;
 
 function combineReducers_template(reducers) {
 
-  return {}
+  return function() {
+
+  }
 }
 
 function combineReducers(reducers) {

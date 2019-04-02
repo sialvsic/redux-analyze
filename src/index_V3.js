@@ -37,12 +37,19 @@ function jobApps(state = initialJobs, action) {
           action.text
         ]
       });
+    case 'DELETE_JOB':
+      const job = action.text;
+      const index = state.jobs.indexOf(job);
+      state.jobs.splice(index, 1);
+      return {
+        ...state,
+      };
     default:
       return state
   }
 }
 
-const RootReducer = Redux.combineReducers({todo: todoApps, job: jobApps});
+const RootReducer = Redux.combineReducers({ todo: todoApps, job: jobApps });
 
 console.log(todoApps);
 console.log(jobApps);
@@ -60,14 +67,50 @@ store.subscribe(function() {
 
 console.log(store.getState());
 
-store.dispatch({
-  type: 'ADD_TODO',
-  text: 'try redux'
-});
+function AddTodo(text) {
+  return {
+    type: 'ADD_TODO',
+    text: text
+  }
+}
 
-store.dispatch({
-  type: 'ADD_JOB',
-  text: 'PM'
-});
+const bindAddToDo = Redux.bindActionCreators(AddTodo, store.dispatch);
+
+// store.dispatch({
+//   type: 'ADD_TODO',
+//   text: 'try redux'
+// });
+
+bindAddToDo('try redux');
+
+function AddJob() {
+  return {
+    type: 'ADD_JOB',
+    text: 'PM'
+  }
+}
+
+function DeleteJob() {
+  return {
+    type: 'DELETE_JOB',
+    text: 'dev'
+  }
+}
+
+const bindJob = Redux.bindActionCreators({
+  AddJob: AddJob,
+  DeleteJob: DeleteJob
+}, store.dispatch);
+
+bindJob.AddJob();
+bindJob.DeleteJob();
+// store.dispatch({
+//   type: 'ADD_JOB',
+//   text: 'PM'
+// });
+// store.dispatch({
+//   type: 'DELETE_JOB',
+//   text: 'dev'
+// });
 
 console.log(store.getState());

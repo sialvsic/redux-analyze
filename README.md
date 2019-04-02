@@ -1,6 +1,5 @@
 # redux-analyze
 
-
 ## Redux 设计思想
 
 ## Redux 优势
@@ -19,13 +18,16 @@ API
 **Other**
 - createStore(reducer, [preloadedState], enhancer)
 - combineReducers(reducers)
-- compose
 - bindActionCreators
+- compose
 - applyMiddleware
 
 ## Teach Path
 - Store(createStore)
-- 
+- combineReducers(reducers)
+- bindActionCreators
+- compose
+- applyMiddleware
 
 ## Learn Path
 Redux -> Redux thunk -> React Redux -> React

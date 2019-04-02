@@ -3,23 +3,32 @@
 
 function createStore_template(reducers, initialState) {
   let store = {};
+  let state = initialState;
+  let listeners = [];
 
   store.subscribe = function(fn) {
-
+    listeners.push(fn)
   };
 
   store.getState = function() {
-
+    return state;
   };
 
+  //dispatch -> action -> reducer -> store
   store.dispatch = function(action) {
-
+    state = reducers(state, action);
+    listeners.forEach((fn) => {
+      fn();
+    });
   };
+
+  store.dispatch({ type: INIT });
 
   return store
 }
 
 const INIT = `@@redux/INIT`;
+
 function createStore_V1(reducers, initialState) {
   let store = {};
   let state;
