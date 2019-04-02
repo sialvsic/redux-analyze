@@ -26,8 +26,10 @@ API
 - Store(createStore)
 - combineReducers(reducers)
 - bindActionCreators
-- compose
+- compose(...functions)
 - applyMiddleware
+- thunk
+- logger
 
 ## Learn Path
 Redux -> Redux thunk -> React Redux -> React

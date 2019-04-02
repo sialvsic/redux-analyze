@@ -1,3 +1,9 @@
+//bindAddToDo = bindActionCreators(AddTodo, dispatch)
+//bindAddToDo('try redux');
+//
+//输入: bindActionCreators(AddTodo, dispatch)
+//输出: Function or {}
+
 function bindActionCreator(actionCreator, dispatch) {
   return function() {
     return dispatch(actionCreator.apply(this, arguments))
