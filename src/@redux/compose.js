@@ -1,4 +1,4 @@
-// compose(funcA, funcB, funcC) 形象为 compose(funcA(funcB(funcC())))）
+// compose(funcA, funcB, funcC, funcD) 形象为 compose(funcA(funcB(funcC(funcD()))))）
 
 function compose_template() {
 
@@ -26,3 +26,17 @@ function compose() {
 module.exports = compose;
 
 
+//分析
+const step1 = function(...args) {
+  return a(b(...args));
+};
+
+const step2 = function(...arge) {
+  return step1(c(...args));
+}
+
+const step3 = function(...arge) {
+  return step2(d(...args));
+}
+
+step3('hello');

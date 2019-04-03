@@ -23,9 +23,9 @@ API
 - applyMiddleware
 
 ## Teach Path
-- Store(createStore)
+- Store(createStore)   <== Now
 - combineReducers(reducers)
-- bindActionCreators
+- bindActionCreators(actionCreators, dispatch)
 - compose(...functions)
 - applyMiddleware
 - thunk

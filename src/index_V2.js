@@ -42,7 +42,8 @@ function jobApps(state = initialJobs, action) {
   }
 }
 
-const RootReducer = Redux.combineReducers({todo: todoApps, job: jobApps});
+//reducers
+const RootReducer = Redux.combineReducers({ todo: todoApps, job: jobApps });
 
 console.log(todoApps);
 console.log(jobApps);
