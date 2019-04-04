@@ -1,14 +1,23 @@
 # redux-analyze
 This repo aim to analyze Redux and DIY it. 
 
-## Redux 设计思想
+## Redux 动机
+- More State, More Complex
+- How Manage State
+- React didn’t handle it
 
-## Redux 优势
+## Redux 三大原则
+- Single source of truth - 单一数据源
+- State is read only - State是只读的
+- Changes are made with pure functions - 使用纯函数进行修改
 
 ## Redux 核心组成
 - Store 
 - Action
 - Reducer
+
+## Redux WorkFlow
+Action -> Reducers -> Store -> View
 
 API
 **store**
