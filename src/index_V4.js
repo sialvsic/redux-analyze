@@ -14,6 +14,10 @@ function C() {
   console.log('C');
 }
 
+A();
+B();
+C();
+
 A(B(C()));
 
 console.log('*******');

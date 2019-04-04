@@ -34,6 +34,6 @@ API
 - thunk
 
 ## Learn Path
-Redux -> Redux thunk -> React Redux -> React
+Redux -> Redux thunk -> React Redux -> React -> React Router
 
 

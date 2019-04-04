@@ -100,7 +100,7 @@ console.log(store.getState());
 
 //for thunk
 function waitFn(time) {
-  return function(dispatch) {
+  return function(dispatch, extraData) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         console.log('time end');

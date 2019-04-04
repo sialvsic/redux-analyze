@@ -8,9 +8,9 @@ function thunk(extraData) {
     return function(next) {
       return function(action) {
         if(typeof action === 'function') {
-          action(store.dispatch, extraData)
+          return action(store.dispatch, extraData)
         } else {
-          next(action)
+          return next(action)
         }
       }
     }

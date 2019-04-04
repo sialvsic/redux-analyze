@@ -32,11 +32,11 @@ const step1 = function(...args) {
   return a(b(...args));
 };
 
-const step2 = function(...arge) {
+const step2 = function(...args) {
   return step1(c(...args));
 }
 
-const step3 = function(...arge) {
+const step3 = function(...args) {
   return step2(d(...args));
 }
 

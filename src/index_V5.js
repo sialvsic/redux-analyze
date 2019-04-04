@@ -34,7 +34,7 @@ function Count(count) {
   return function(store) {
     return function(next) {
       return function(action) {
-        console.log(count++);
+        console.log(++count);
         // console.log(next);
         // console.log(action);
         return next(action)
