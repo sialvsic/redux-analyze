@@ -5,6 +5,9 @@ const compose = require('./compose');
 //输入: applyMiddleware(...middleWares)
 //输出:
 
+function applyMiddleware_template(...middleWares) {
+
+}
 
 //enhance store
 function applyMiddleware(...middleWares) {
