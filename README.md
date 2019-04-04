@@ -1,4 +1,5 @@
 # redux-analyze
+This repo aim to analyze Redux and DIY it. 
 
 ## Redux 设计思想
 
