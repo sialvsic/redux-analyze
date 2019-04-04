@@ -53,7 +53,8 @@ function createStore_V1(reducers, initialState, enhancer) {
     state = reducers(state, action);
     listeners.forEach((listener) => {
       listener();
-    })
+    });
+    return action
   };
 
   if(typeof enhancer === 'function') {
