@@ -21,6 +21,7 @@ API
 - bindActionCreators
 - compose
 - applyMiddleware
+- middleware
 
 ## Teach Path
 - Store(createStore)   <== Now
