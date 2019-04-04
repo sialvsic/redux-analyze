@@ -28,8 +28,8 @@ API
 - bindActionCreators(actionCreators, dispatch)
 - compose(...functions)
 - applyMiddleware  && createStore-enhancer
-- thunk
 - logger
+- thunk
 
 ## Learn Path
 Redux -> Redux thunk -> React Redux -> React
