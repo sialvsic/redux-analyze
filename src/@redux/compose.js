@@ -27,6 +27,7 @@ module.exports = compose;
 
 
 //分析
+/*
 const step1 = function(...args) {
   return a(b(...args));
 };
@@ -40,3 +41,4 @@ const step3 = function(...arge) {
 }
 
 step3('hello');
+*/

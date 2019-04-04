@@ -27,7 +27,7 @@ API
 - combineReducers(reducers)
 - bindActionCreators(actionCreators, dispatch)
 - compose(...functions)
-- applyMiddleware
+- applyMiddleware  && createStore-enhancer
 - thunk
 - logger
 
