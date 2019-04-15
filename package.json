@@ -1,8 +1,17 @@
 {
-  "name": "redux-analyze",
-  "version": "1.0.0",
-  "description": "Redux 组成 - Store  - Action - Reducer",
-  "main": "index.js",
+  "name": "@sialvsic/redux",
+  "version": "0.1.0",
+  "description": "This repo aim to analyze Redux and DIY it.",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,10 +24,5 @@
   "bugs": {
     "url": "https://github.com/sialvsic/redux-analyze/issues"
   },
-  "homepage": "https://github.com/sialvsic/redux-analyze#readme",
-  "dependencies": {
-    "redux": "^4.0.1",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
-  }
+  "homepage": "https://github.com/sialvsic/redux-analyze#readme"
 }

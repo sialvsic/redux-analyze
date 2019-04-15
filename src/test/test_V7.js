@@ -1,9 +1,9 @@
 // thunk
 // const Redux = require('redux');
-const createStore = require('../@redux/createStore');
-const applyMiddleware = require('../@redux/applyMiddleware');
-const combineReducers = require('../@redux/combineReducers');
-const thunk = require('../@redux/thunk');
+const createStore = require('../../lib/createStore');
+const applyMiddleware = require('../../lib/applyMiddleware');
+const combineReducers = require('../../lib/combineReducers');
+const thunk = require('../../lib/thunk');
 
 //({ getState, dispatch }) => next => action
 

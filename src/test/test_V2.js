@@ -1,6 +1,6 @@
 //combineReducers
-const createStore = require('../@redux/createStore_V1');
-const combineReducers = require('../@redux/combineReducers');
+const createStore = require('../../lib/createStore_V1');
+const combineReducers = require('../../lib/combineReducers');
 
 const initialState = {
   todos: [

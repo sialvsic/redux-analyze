@@ -1,5 +1,5 @@
 // compose(funcA, funcB, funcC) 形象为 compose(funcA(funcB(funcC())))）
-const compose = require('../@redux/compose');
+const compose = require('../../lib/compose');
 
 function A() {
   console.log('A');

@@ -1,6 +1,6 @@
 // applyMiddleware(...middleWares)
-const createStore = require('../@redux/createStore');
-const applyMiddleware = require('../@redux/applyMiddleware');
+const createStore = require('../../lib/createStore');
+const applyMiddleware = require('../../lib/applyMiddleware');
 
 // applyMiddleware(...middleware)
 

@@ -45,4 +45,16 @@ API
 ## Learn Path
 Redux -> Redux thunk -> React Redux -> React -> React Router
 
+## How to publish to npm
+```bash
+npm publish --access public
+```
 
+```bash
+npm unpublish @sialvsic/redux-analyze@0.0.1 -f
+```
+
+## How to publish in local with verdaccio
+```bash
+npm publish --registry http://localhost:4873
+```

@@ -1,5 +1,5 @@
 //createStore_V1
-const createStore = require('../@redux/createStore_V1');
+const createStore = require('../../lib/createStore_V1');
 
 const initialState = {
   todos: [

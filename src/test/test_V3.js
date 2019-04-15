@@ -1,7 +1,7 @@
 //bindActionCreators
-const createStore = require('../@redux/createStore_V1');
-const combineReducers = require('../@redux/combineReducers');
-const bindActionCreators = require('../@redux/bindActionCreators');
+const createStore = require('../../lib/createStore_V1');
+const combineReducers = require('../../lib/combineReducers');
+const bindActionCreators = require('../../lib/bindActionCreators');
 
 const initialState = {
   todos: [
