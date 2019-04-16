@@ -34,7 +34,7 @@ API
 - middleware
 
 ## Teach Path
-- Store(createStore)   <== Now
+- Store(createStore)
 - combineReducers(reducers)
 - bindActionCreators(actionCreators, dispatch)
 - compose(...functions)

@@ -1,6 +1,6 @@
 {
   "name": "@sialvsic/redux",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This repo aim to analyze Redux and DIY it.",
   "main": "lib/index.js",
   "dependencies": {},
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/sialvsic/redux-analyze.git"
   },
-  "author": "",
+  "author": "sialvsic",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sialvsic/redux-analyze/issues"
