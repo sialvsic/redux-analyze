@@ -47,7 +47,7 @@ Redux -> Redux thunk -> React Redux -> React -> React Router
 
 ## How to publish to npm
 ```bash
-npm publish --access public
+npm publish
 ```
 
 ```bash
